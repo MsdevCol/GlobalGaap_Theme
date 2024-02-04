@@ -1,0 +1,102 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        {
+          "color": "#E68A1F",
+          "name": "Orange",
+          "slug": "orange"
+        },
+        {
+          "color": "#2C4B78",
+          "name": "Blue",
+          "slug": "blue"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "name": "Jakarta",
+          "slug": "jakarta",
+          "fontFamily": "'Plus Jakarta Sans', sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontWeight": "500",
+              "fontStyle": "medium",
+              "src": ["file:./assets/fonts/PlusJakartaSans-Medium.ttf"]
+            },
+            {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontWeight": "700",
+              "fontStyle": "bold",
+              "src": ["file:./assets/fonts/PlusJakartaSans-Bold.ttf"]
+            },
+            {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontWeight": "400",
+              "fontStyle": "italic",
+              "src": ["file:./assets/fonts/PlusJakartaSans-Italic.ttf"]
+            },
+            {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontWeight": "400",
+              "fontStyle": "regular",
+              "src": ["file:./assets/fonts/PlusJakartaSans-Regular.ttf"]
+            },
+            {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontWeight": "600",
+              "fontStyle": "semibold",
+              "src": ["file:./assets/fonts/PlusJakartaSans-SemiBold.ttf"]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#111111",
+      "text": "#FFFFFF"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|jakarta",
+      "fontWeight": "500"
+    },
+    "blocks": {
+      "core/button": {
+        "border": {
+          "radius": "4px"
+        },
+        "color": {
+          "background": "var:preset|color|orange"
+        },
+        "variations": {
+          "fill": {
+            "border": {
+              "radius": "4px"
+            },
+            "color": {
+              "background": "var:preset|color|orange"
+            }
+          }
+        }
+      },
+      "core/image": {
+        "css": "& wp-image-10 {height:100vh; object-fit: fill; position:absolute; width:100vw;}"
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "area": "header",
+      "name": "header",
+      "title": "Header"
+    }
+  ]
+}
