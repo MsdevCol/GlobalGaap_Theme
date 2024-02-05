@@ -1,0 +1,10 @@
+.bhero-backgroundImage {
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+}

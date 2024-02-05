@@ -52,19 +52,19 @@
             </p>
             <div class="csoon_countdown">
                 <div class="csoon_countS">
-                    <span class="csoon_N">08</span>
+                    <span class="csoon_N" id="csoon_days">00</span>
                     <p class="csoon_countP"> days </p>
                 </div>
                 <div class="csoon_countS">
-                    <span class="csoon_N">08</span>
+                    <span class="csoon_N" id="csoon_hours">00</span>
                     <p class="csoon_countP"> hours </p>
                 </div>
                 <div class="csoon_countS">
-                    <span class="csoon_N">08</span>
+                    <span class="csoon_N" id="csoon_minutes">00</span>
                     <p class="csoon_countP"> minutes </p>
                 </div>
                 <div class="csoon_countS">
-                    <span class="csoon_N">08</span>
+                    <span class="csoon_N" id="csoon_seconds">00</span>
                     <p class="csoon_countP"> seconds </p>
                 </div>
             </div>
