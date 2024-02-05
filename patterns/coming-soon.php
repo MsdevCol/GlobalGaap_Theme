@@ -41,7 +41,7 @@
                 </g>
             </svg>
             <p class="csoon_title">
-                Coming Soon
+                Nos vemos pronto
             </p>
             <p class="csoon_paragraph">
                 Nos encontramos en la fase final de crear algo verdaderamente
@@ -53,19 +53,19 @@
             <div class="csoon_countdown">
                 <div class="csoon_countS">
                     <span class="csoon_N" id="csoon_days">00</span>
-                    <p class="csoon_countP"> days </p>
+                    <p class="csoon_countP"> Dias </p>
                 </div>
                 <div class="csoon_countS">
                     <span class="csoon_N" id="csoon_hours">00</span>
-                    <p class="csoon_countP"> hours </p>
+                    <p class="csoon_countP"> Horas </p>
                 </div>
                 <div class="csoon_countS">
                     <span class="csoon_N" id="csoon_minutes">00</span>
-                    <p class="csoon_countP"> minutes </p>
+                    <p class="csoon_countP"> Minutos </p>
                 </div>
                 <div class="csoon_countS">
                     <span class="csoon_N" id="csoon_seconds">00</span>
-                    <p class="csoon_countP"> seconds </p>
+                    <p class="csoon_countP"> Segundos </p>
                 </div>
             </div>
         </div>

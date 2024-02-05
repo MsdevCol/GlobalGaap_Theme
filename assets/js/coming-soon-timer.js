@@ -2,7 +2,7 @@
 // Set the date we're counting down to
 // Use the format "Year, Month (0-11), Day, Hour, Minute, Second"
 // Example for December 31, 2024, 23:59:59 use: new Date(2024, 11, 31, 23, 59, 59)
-var countDownDate = new Date(2024, 1, 25, 23, 59, 59).getTime();
+var countDownDate = new Date(2024, 1, 16, 23, 59, 59).getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
