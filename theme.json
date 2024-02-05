@@ -53,6 +53,12 @@
               "fontWeight": "600",
               "fontStyle": "semibold",
               "src": ["file:./assets/fonts/PlusJakartaSans-SemiBold.ttf"]
+            },
+            {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontWeight": "800",
+              "fontStyle": "extrabold",
+              "src": ["file:./assets/fonts/PlusJakartaSans-ExtraBold.ttf"]
             }
           ]
         }
@@ -60,13 +66,32 @@
     }
   },
   "styles": {
-    "color": {
-      "background": "#111111",
-      "text": "#FFFFFF"
-    },
     "typography": {
       "fontFamily": "var:preset|font-family|jakarta",
       "fontWeight": "500"
+    },
+    "spacing": {
+      "margin": { "top": "0px", "bottom": "0px", "left": "0px", "right": "0px" }
+    },
+    "css": "box-sizing: border-box;",
+
+    "elements": {
+      "h3": {
+        "typography": {
+          "fontWeight": "600"
+        },
+        "color": {
+          "text": "var:preset|color|orange"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontWeight": "600"
+        },
+        "color": {
+          "text": "var:preset|color|blue"
+        }
+      }
     },
     "blocks": {
       "core/button": {
@@ -86,9 +111,6 @@
             }
           }
         }
-      },
-      "core/image": {
-        "css": "& wp-image-10 {height:100vh; object-fit: fill; position:absolute; width:100vw;}"
       }
     }
   },

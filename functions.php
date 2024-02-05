@@ -19,6 +19,13 @@ function globalgaap_enqueue_styles()
         wp_get_theme()->get('Version'),
         'all'
     );
+    wp_enqueue_style(
+        'dynamic-header',
+        get_parent_theme_file_uri('assets/css/dynamic-header.css'),
+        array(),
+        wp_get_theme()->get('Version'),
+        'all'
+    );
 }
 
 function globalgaap_enqueue_scripts()

@@ -1,10 +1,15 @@
 .bhero-backgroundImage {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   top: 0;
+  z-index: -1;
+  margin: 0;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  position: absolute;
-  z-index: -1;
+  position: relative;
+}
+.bhero-ctaButton {
+  display: flex;
+  justify-content: center;
 }
