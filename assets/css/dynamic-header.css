@@ -1,4 +1,19 @@
 .dynamH-container {
-  position: absolute;
+  position: fixed;
+  top: 0;
   width: 100%;
+  padding-top: 45px;
+  padding-bottom: 20px;
+  transition: 1s;
+}
+.dynamH-container .wp-block-navigation-item {
+  color: white;
+}
+.scrolled {
+  background-color: gainsboro;
+}
+
+.scrolled .wp-block-navigation-item {
+  color: #2c4b78;
+  transition: 1s;
 }

@@ -31,5 +31,6 @@ function globalgaap_enqueue_styles()
 function globalgaap_enqueue_scripts()
 {
     wp_enqueue_script('countdown-timer', get_template_directory_uri() . '/assets/js/coming-soon-timer.js', array(), '1.0.0', true);
+    wp_enqueue_script('dynamic-header', get_template_directory_uri() . '/assets/js/dynamic-header.js', array(), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'globalgaap_enqueue_scripts');
