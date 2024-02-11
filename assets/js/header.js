@@ -1,6 +1,7 @@
 if (document.querySelector(".dynamH-container")){
 
 const navbar = document.querySelector(".dynamH-container");
+const logo = document.querySelector("#navbar-logo")
 const scrollWatcher = document.createElement("div");
 
 if(document.getElementsByClassName('bhero-backgroundImage').length){
@@ -11,6 +12,8 @@ if(document.getElementsByClassName('bhero-backgroundImage').length){
     
     const navObserver = new IntersectionObserver( (data) => {
         navbar.classList.toggle('scrolled', !data[0].isIntersecting)
+        logo.classList.toggle('navbar-logo-container',data[0].isIntersecting)
+        logo.classList.toggle('navbar-logo-container2',!data[0].isIntersecting)
     });
     
     navObserver.observe(scrollWatcher);
@@ -19,4 +22,4 @@ if(document.getElementsByClassName('bhero-backgroundImage').length){
     navbar.classList.add('scrolled')
 }
 
-}
+}   
