@@ -20,7 +20,7 @@ function globalgaap_enqueue_styles()
         'all'
     );
     wp_enqueue_style(
-        'dynamic-header',
+        'header',
         get_parent_theme_file_uri('assets/css/header.css'),
         array(),
         wp_get_theme()->get('Version'),
@@ -33,7 +33,22 @@ function globalgaap_enqueue_styles()
         wp_get_theme()->get('Version'),
         'all'
     );
+    wp_enqueue_style(
+        'team-card',
+        get_parent_theme_file_uri('assets/css/team-card.css'),
+        array(),
+        wp_get_theme()->get('Version'),
+        'all'
+    );
+    wp_enqueue_style(
+        'front-page',
+        get_parent_theme_file_uri('assets/css/front-page.css'),
+        array(),
+        wp_get_theme()->get('Version'),
+        'all'
+    );
 }
+
 
 function globalgaap_enqueue_scripts()
 {

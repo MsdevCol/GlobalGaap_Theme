@@ -1,0 +1,45 @@
+.tcard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 290px;
+  height: 640px;
+  margin: 40px 0 0 0;
+}
+
+.tcard-container img {
+  width: 100%;
+  height: 315px;
+  object-fit: cover;
+}
+.tcard-container figure {
+  width: 100%;
+  height: 315px;
+}
+.tcard-container h4 {
+  color: #333333;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+.tcard-container h5 {
+  color: #787f88;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+}
+.tcard-container li {
+  color: #3e4856;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px;
+}
+.tcard-container a {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
