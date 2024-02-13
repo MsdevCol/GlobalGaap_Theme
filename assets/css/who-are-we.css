@@ -4,3 +4,31 @@
   align-items: center;
   margin-top: 45px;
 }
+@media only screen and (max-width: 768px) {
+  .whoAreWe-container div {
+    padding: 0px 40px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .whoAreWe-imgContainer {
+    display: none !important;
+  }
+  .whoAreWe-container h3 {
+    font-size: 24px !important;
+  }
+  .whoAreWe-container h2 {
+    font-size: 20px !important;
+  }
+  .whoAreWe-container p {
+    font-size: 14px !important;
+  }
+  .whoAreWe-container h2,
+  .whoAreWe-container p {
+    text-align: center;
+  }
+  .whoAreWe-container .wp-block-button {
+    font-size: 14px;
+  }
+}

@@ -75,12 +75,6 @@
   color: white;
 }
 
-.bhero-backgroundImage h1 {
-  color: white;
-}
-.bhero-backgroundImage h2 {
-  color: white;
-}
 /*--------- mobile ---------*/
 
 @media only screen and (max-width: 768px) {

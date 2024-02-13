@@ -9,10 +9,11 @@
 
 <!-- wp:columns {"align":"wide","className":"whoAreWe-container"} -->
 <div class="wp-block-columns alignwide whoAreWe-container">
-    <!-- wp:column {"width":"40%"} -->
-    <div class="wp-block-column" style="flex-basis:40%">
+    <!-- wp:column {"width":"40%", "className": "whoAreWe-imgContainer"} -->
+    <div class="wp-block-column whoAreWe-imgContainer" style="flex-basis:40%">
         <!-- wp:image {"width":"650px","height":"370px","scale":"cover","className":"alignright is-resized"} -->
-        <figure class="wp-block-image is-resized alignright"><img alt="" style="object-fit:cover;width:650px;height:370px" /></figure>
+        <figure class="wp-block-image is-resized alignright"><img alt=""
+                style="object-fit:cover;width:650px;height:370px" /></figure>
         <!-- /wp:image -->
     </div>
     <!-- /wp:column -->
@@ -39,7 +40,7 @@
         <!-- /wp:paragraph -->
 
         <!-- wp:button -->
-        <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">conoce mas</a></div>
+        <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Conoce más →</a></div>
         <!-- /wp:button -->
     </div>
     <!-- /wp:column -->

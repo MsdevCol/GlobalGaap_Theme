@@ -24,7 +24,7 @@
 .navbar-logo-container {
   height: 40px;
   width: 230px;
-  background-image: url(../images/logo_blanco_svg.svg);
+  background-image: url(../images/logo_blanco.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -33,5 +33,46 @@
   width: 230px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../images/logo_color_svg.svg);
+  background-image: url(../images/logo_color.svg);
+}
+.navbar-burger {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .dynamH-container {
+    padding: 0px 40px !important;
+    width: 100svw;
+    flex-wrap: nowrap !important;
+  }
+  .dynamH-container .wp-block-navigation {
+    display: none;
+  }
+  .navbar-logo-container {
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/logo_mobile.svg);
+  }
+  .navbar-logo-container2 {
+    height: 40px;
+    width: 40px;
+
+    background-image: url(../images/logo_mobile.svg);
+  }
+  .navbar-burger {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/burger.svg);
+  }
+  .dynamH-container .wp-block-button {
+    display: none;
+  }
+  .navbar-items-container {
+    width: 100%;
+    height: 100%;
+  }
 }

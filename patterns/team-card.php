@@ -13,13 +13,13 @@
     <figure class="wp-block-image"><img alt="" /></figure>
     <!-- /wp:image -->
 
-    <!-- wp:paragraph -->
-    <h4>Alejandro Romero</h4>
-    <!-- /wp:paragraph -->
+    <!-- wp:heading {"level":4} -->
+    <h4 class="wp-block-heading">Alejandro Romero</h4>
+    <!-- /wp:heading -->
 
-    <!-- wp:paragraph -->
-    <h5>Impuestos</h5>
-    <!-- /wp:paragraph -->
+    <!-- wp:heading {"level":5} -->
+    <h5 class="wp-block-heading">Impuestos</h5>
+    <!-- /wp:heading -->
 
     <!-- wp:list -->
     <ul>
