@@ -1,0 +1,76 @@
+.cForm-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cForm-container .wp-block-column {
+  width: 430px;
+  height: 530px;
+  padding: 30px 60px;
+  background-color: #e68a1f;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.cForm-container figure,
+.cForm-container img {
+  height: 200px;
+  width: 200px;
+  align-self: center;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.cForm-container p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.cForm-email::before {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 34px;
+  background-image: url(../images/icons/email.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 12px;
+}
+.cForm-phone::before {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 34px;
+  background-image: url(../images/icons/phone.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 12px;
+}
+
+.cForm-address::before {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 34px;
+  background-image: url(../images/icons/address.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.cForm-hours::before {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 34px;
+  background-image: url(../images/icons/hours.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 12px;
+}

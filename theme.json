@@ -111,6 +111,15 @@
             }
           }
         }
+      },
+      "core/image": {
+        "variations": {
+          "Rounded": {
+            "border": {
+              "radius": "100px"
+            }
+          }
+        }
       }
     }
   },
