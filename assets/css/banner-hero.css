@@ -11,13 +11,13 @@
   overflow: hidden;
 }
 .bhero-backgroundImage h1 {
-  color: white;
+  color: white !important;
 }
 .bhero-backgroundImage h2 {
-  color: white;
+  color: white !important;
 }
 .bhero-backgroundImage h3 {
-  color: white;
+  color: white !important;
 }
 .bhero-ctaButton {
   display: flex;
