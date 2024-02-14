@@ -38,7 +38,7 @@
     <!-- /wp:list -->
 
     <!-- wp:paragraph -->
-    <p><a href="/">LinkedIn</a></p>
+    <p><a href="/" target="_blank">LinkedIn</a></p>
     <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

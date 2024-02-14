@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}, className: "cForm-container"} -->
-<div class="wp-block-group cForm-container">
+<div class="wp-block-group cForm-container" id="contact-form">
     <!-- wp:heading {"level":2, "className":"has-text-align-center","style":{"typography":{"fontSize":"28px"}}} -->
     <h2 class="wp-block-heading has-text-align-center" style="font-size: 28px">
         Contactanos

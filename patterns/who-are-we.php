@@ -8,13 +8,12 @@
 ?>
 
 <!-- wp:columns {"align":"wide","className":"whoAreWe-container"} -->
-<div class="wp-block-columns alignwide whoAreWe-container">
+<div class="wp-block-columns alignwide whoAreWe-container" id="who-are-we">
     <!-- wp:column {"width":"40%", "className": "whoAreWe-imgContainer"} -->
     <div class="wp-block-column whoAreWe-imgContainer" style="flex-basis:40%">
-        <!-- wp:image {"width":"650px","height":"370px","scale":"cover","className":"alignright is-resized"} -->
-        <figure class="wp-block-image is-resized alignright"><img alt=""
-                style="object-fit:cover;width:650px;height:370px" /></figure>
-        <!-- /wp:image -->
+        <!-- wp:video {"className":"alignright is-resized"} -->
+        <figure class="wp-block-video alignright is-resized"></figure>
+        <!-- /wp:video -->
     </div>
     <!-- /wp:column -->
 
@@ -40,7 +39,8 @@
         <!-- /wp:paragraph -->
 
         <!-- wp:button -->
-        <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Conoce más →</a></div>
+        <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/#contact-form">Conoce más
+                →</a></div>
         <!-- /wp:button -->
     </div>
     <!-- /wp:column -->

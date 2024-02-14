@@ -42,6 +42,8 @@
   .dynamH-container {
     padding: 0px 40px !important;
     width: 100svw;
+    height: 64px;
+    min-height: 64px !important;
     flex-wrap: nowrap !important;
   }
   .dynamH-container .wp-block-navigation {
@@ -56,7 +58,7 @@
     height: 40px;
     width: 40px;
 
-    background-image: url(../images/icons/logo_mobile.svg);
+    background-image: url(../images/icons/logo_mobile_color.svg);
   }
   .navbar-burger {
     display: flex;
@@ -67,6 +69,9 @@
     width: 32px;
     height: 32px;
     background-image: url(../images/icons/burger.svg);
+  }
+  .burger_menu_2 {
+    background-image: url(../images/icons/burger_color.svg) !important;
   }
   .dynamH-container .wp-block-button {
     display: none;

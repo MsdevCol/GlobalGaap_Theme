@@ -5,6 +5,10 @@
   margin-top: 45px;
   margin-bottom: 80px;
 }
+.whoAreWe-imgContainer figure {
+  width: 646px;
+  height: 372px;
+}
 @media only screen and (max-width: 768px) {
   .whoAreWe-container div {
     padding: 0px 40px !important;

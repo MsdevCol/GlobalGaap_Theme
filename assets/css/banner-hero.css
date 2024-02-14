@@ -35,12 +35,15 @@
     box-sizing: border-box;
   }
   .bhero-backgroundImage h1 {
+    color: white;
     font-size: 32px !important;
   }
   .bhero-backgroundImage h2 {
+    color: white;
     font-size: 20px !important;
   }
   .bhero-backgroundImage h3 {
+    color: white;
     font-size: 16px !important;
   }
   .bhero-ctaButton {
