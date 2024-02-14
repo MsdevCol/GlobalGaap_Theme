@@ -2,12 +2,61 @@
   box-sizing: border-box;
   padding: 0px 80px;
 }
+.fpage-dotContainer {
+  display: none;
+}
+.fpage-dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  display: inline-block;
+  border: solid 1px black;
+}
 
+.fpage-teamsContainer h3 {
+  margin-bottom: 60px;
+}
+.fpage-teamsContainer {
+  margin-bottom: 80px;
+}
 @media only screen and (max-width: 768px) {
+  .miembrosO-container {
+    overflow: scroll;
+  }
   .miembrosO-container h3 {
     font-size: 24px !important;
   }
   .miembrosO-container figure,
   .miembrosO-container img {
+  }
+
+  .fpage-teams {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow: scroll;
+    scrollbar-width: none;
+    width: 100%;
+    gap: 300px;
+    scroll-behavior: smooth;
+  }
+
+  .fpage-teams::-webkit-scrollbar {
+    display: none;
+  }
+  .fpage-dotContainer {
+    width: 100svw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .fpage-selected {
+    background-color: black;
+  }
+  .fpage-teams::after {
+    content: "";
+    width: 10px;
+    height: 100%;
+    display: block;
   }
 }

@@ -18,9 +18,15 @@
   margin-right: 20px;
 }
 @media only screen and (max-width: 768px) {
+  footer {
+    margin: 0 !important;
+  }
   .footer-container {
     width: 100%;
     overflow: hidden;
-    display: none;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0px;
+    margin-top: 0px;
   }
 }

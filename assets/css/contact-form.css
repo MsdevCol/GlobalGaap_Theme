@@ -1,5 +1,6 @@
 .cForm-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -73,4 +74,9 @@
   background-repeat: no-repeat;
   background-size: contain;
   margin-right: 12px;
+}
+@media only screen and (max-width: 768px) {
+  .cForm-container .wp-block-column {
+    width: 100svw;
+  }
 }

@@ -9,6 +9,11 @@
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}, className: "cForm-container"} -->
 <div class="wp-block-group cForm-container">
+    <!-- wp:heading {"level":2, "className":"has-text-align-center","style":{"typography":{"fontSize":"28px"}}} -->
+    <h2 class="wp-block-heading has-text-align-center" style="font-size: 28px">
+        Contactanos
+    </h2>
+    <!-- /wp:heading -->
     <!-- wp:columns -->
     <div class="wp-block-columns">
         <!-- wp:column -->
