@@ -9,10 +9,10 @@
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}, className: "cForm-container"} -->
 <div class="wp-block-group cForm-container" id="contact-form">
-    <!-- wp:heading {"level":2, "className":"has-text-align-center","style":{"typography":{"fontSize":"28px"}}} -->
-    <h2 class="wp-block-heading has-text-align-center" style="font-size: 28px">
+    <!-- wp:heading {"level":3, "className":"has-text-align-center","style":{"typography":{"fontSize":"28px"}}} -->
+    <h3 class="wp-block-heading has-text-align-center" style="font-size: 28px">
         Contactanos
-    </h2>
+    </h3>
     <!-- /wp:heading -->
     <!-- wp:columns -->
     <div class="wp-block-columns">

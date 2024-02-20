@@ -5,7 +5,7 @@ const logo = document.querySelector("#navbar-logo")
 const scrollWatcher = document.createElement("div");
 const burger_menu = document.querySelector(".navbar-burger")
 
-if(document.getElementsByClassName('bhero-backgroundImage').length){
+if(document.getElementsByClassName('fpage-teamsContainer').length){
     navbar.classList.remove('scrolled')
     scrollWatcher.setAttribute('data-scroll-watcher', '');
 

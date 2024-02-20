@@ -1,0 +1,50 @@
+.chero-container {
+  margin: 0;
+  height: 95vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url(../images/hero/Bogota.jpg);
+  transition: background-image 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 12px;
+}
+.chero-container h1,
+.chero-container h2,
+.chero-container h3 {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+.chero-container h1 {
+  width: 750px;
+  font-size: 72px;
+  font-weight: 700;
+}
+.chero-container h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.chero-container h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.chero-container a {
+  height: 66px;
+  width: 226px;
+  background-color: #e68a1f;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 60px;
+}
