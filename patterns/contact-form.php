@@ -6,43 +6,38 @@
  * Categories: featured
  */
 ?>
-
-<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}, className: "cForm-container"} -->
-<div class="wp-block-group cForm-container" id="contact-form">
-    <!-- wp:heading {"level":3, "className":"has-text-align-center","style":{"typography":{"fontSize":"28px"}}} -->
-    <h3 class="wp-block-heading has-text-align-center" style="font-size: 28px">
-        Contactanos
-    </h3>
-    <!-- /wp:heading -->
-    <!-- wp:columns -->
-    <div class="wp-block-columns">
-        <!-- wp:column -->
-        <div class="wp-block-column">
-
-            <!-- wp:image -->
-            <figure class="wp-block-image"><img alt="" /></figure>
-            <!-- /wp:image -->
-
-            <!-- wp:paragraph {"className":"cForm-email"} -->
-            <p class="cForm-email">ggmedellin@globalgaap.com.co</p>
-            <!-- /wp:paragraph -->
-
-            <!-- wp:paragraph {"className":"cForm-phone"} -->
-            <p class="cForm-phone">( 601 ) 828 1796 </p>
-            <!-- /wp:paragraph -->
-
-            <!-- wp:paragraph {"className":"cForm-address"} -->
-            <p class="cForm-address">Calle 5A #39 - 131 Torre 4 Piso 5
-                Edificio Corfin. El poblado</p>
-            <!-- /wp:paragraph -->
-
-            <!-- wp:paragraph {"className":"cForm-hours"} -->
-            <p class="cForm-hours">08:00 AM - 05:00 PM</p>
-            <!-- /wp:paragraph -->
-        </div>
-        <!-- /wp:column -->
-
+<!-- wp:html -->
+<form action="your-server-side-handler" method="POST" class="cform-container">
+    <h3>Contáctanos</h3>
+    <p>Conéctate con el experto indicado para llevar tus proyectos</p>
+    <div class="cform-nameContainer">
+        <input type="text" id="cform-name" name="name" required placeholder="Nombre">
+        <input type="email" id="cform-email" name="email" required placeholder="Email">
     </div>
-    <!-- /wp:columns -->
+    <div class="cform-phoneContainer">
+        <input type="tel" id="cform-phone" name="phone" placeholder="Telefono">
+
+        <select id="cform-service" name="service">
+            <!-- Option values should be updated according to actual services -->
+            <option value="" selected disabled hidden>Servicio</option>
+            <option value="BPO">BPO</option>
+            <option value="Impuestos">Impuestos</option>
+            <option value="Consultoria">Consultoria - NIIF</option>
+            <option value="Auditoria">Auditoria y revision fiscal</option>
+        </select>
+
+        <select id="cform-country" name="country">
+            <!-- Option values should be updated according to actual countries -->
+            <option value="" selected disabled hidden>País</option>
+            <option value="country1">País 1</option>
+            <option value="country2">País 2</option>
+            <option value="country3">País 3</option>
+        </select>
+    </div>
+
+    <textarea id="cform-message" name="message" required placeholder="Mensaje"></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
 </div>
-<!-- /wp:group -->
+<!-- /wp:html -->
