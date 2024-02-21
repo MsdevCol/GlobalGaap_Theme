@@ -7,12 +7,39 @@
  */
 ?>
 <!-- wp:html -->
-<form action="your-server-side-handler" method="POST" class="cform-container">
+<?php
+pre_r($_POST);
+if (isset($_POST['submit'])) {
+
+
+    //user posted variables
+    $name = $_POST['cform-name'];
+    $email = $_POST['cform-email'];
+    $message = $_POST['message'];
+
+    //php mailer variables
+    $to = 'sergio.gomez2000@hotmail.com';
+    $subject = "Some text in subject...";
+    $headers = 'From: ' . $email . "\r\n" .
+        'Reply-To: ' . $email . "\r\n";
+
+    //Here put your Validation and send mail
+    $sent = wp_mail($to, $subject, strip_tags($message), $headers);
+
+    if ($sent) {
+        echo '//message sent!  ';
+    } else {
+        echo '//message wasnt sent  ';
+    }
+}
+?>
+<form method="POST" class="cform-container" id="contact-form">
+    <input type="hidden" name="form_type" value="contact_form">
     <h3>Contáctanos</h3>
     <p>Conéctate con el experto indicado para llevar tus proyectos</p>
     <div class="cform-nameContainer">
-        <input type="text" id="cform-name" name="name" required placeholder="Nombre">
-        <input type="email" id="cform-email" name="email" required placeholder="Email">
+        <input type="text" id="cform-name" name="cform-name" required placeholder="Nombre">
+        <input type="email" id="cform-email" name="cform-email" required placeholder="Email">
     </div>
     <div class="cform-phoneContainer">
         <input type="tel" id="cform-phone" name="phone" placeholder="Telefono">
@@ -37,7 +64,15 @@
 
     <textarea id="cform-message" name="message" required placeholder="Mensaje"></textarea>
 
-    <button type="submit">Enviar</button>
+    <button type="submit" name="submit" value="submit">Enviar</button>
 </form>
 </div>
+
 <!-- /wp:html -->
+<?php
+function pre_r($array)
+{
+    echo '<pre>';
+    print_r($array);
+    echo '</pre>';
+}

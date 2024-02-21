@@ -76,5 +76,20 @@ function globalgaap_enqueue_scripts()
     wp_enqueue_script('countdown-timer', get_template_directory_uri() . '/assets/js/coming-soon-timer.js', array(), '1.0.0', true);
     wp_enqueue_script('dynamic-header', get_template_directory_uri() . '/assets/js/header.js', array(), '1.0.0', true);
     wp_enqueue_script('carrousel-hero', get_template_directory_uri() . '/assets/js/carrousel-hero.js', array(), '1.0.0', true);
+    wp_enqueue_script('contact-form', get_template_directory_uri() . '/assets/js/contact-form.js', array(), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'globalgaap_enqueue_scripts');
+
+add_action('phpmailer_init', 'configuracion_smtp');
+
+function configuracion_smtp($phpmailer)
+{
+
+    $phpmailer->isSMTP();
+    $phpmailer->Host = '';
+    $phpmailer->SMTPAuth = true;
+    $phpmailer->Port = 465;
+    $phpmailer->Username = '';
+    $phpmailer->Password = '';
+    $phpmailer->SMTPSecure = false;
+}
