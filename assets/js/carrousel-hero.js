@@ -1,22 +1,16 @@
-if(document.querySelector('.chero-container')) {
+if (document.querySelector(".chero-container")) {
+  const heroSection = document.querySelector(".chero-container");
+  const images = [
+    globalGaap.theme_url + "Medellin.jpg",
+    globalGaap.theme_url + "Cali.jpg",
+    globalGaap.theme_url + "Cucuta.jpg",
+    globalGaap.theme_url + "Barranquilla.jpg",
+    globalGaap.theme_url + "Bogota.jpg",
+  ];
+  let currentIndex = 0;
 
-
-
-const heroSection = document.querySelector('.chero-container');
-const images = [
-  
-  'url("http://test.local/wp-content/themes/GlobalGaap/assets/images/hero/Medellin.jpg")',
-  'url("http://test.local/wp-content/themes/GlobalGaap/assets/images/hero/Cali.jpg")',
-  'url("http://test.local/wp-content/themes/GlobalGaap/assets/images/hero/Cucuta.jpg")',
-  'url("http://test.local/wp-content/themes/GlobalGaap/assets/images/hero/Barranquilla.jpg")',
-  'url("http://test.local/wp-content/themes/GlobalGaap/assets/images/hero/Bogota.jpg")',
-  // Add more images as needed
-];
-let currentIndex = 0;
-
-setInterval(() => {
-  heroSection.style.backgroundImage = images[currentIndex];
-  currentIndex = (currentIndex + 1) % images.length;
-}, 5000);
-
+  setInterval(() => {
+    heroSection.style.backgroundImage = `url(${images[currentIndex]})`;
+    currentIndex = (currentIndex + 1) % images.length;
+  }, 5000);
 }

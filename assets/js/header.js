@@ -22,6 +22,8 @@ if(document.getElementsByClassName('fpage-teamsContainer').length){
 } else {
     navbar.style.transition = '0s'
     navbar.classList.add('scrolled')
+    logo.classList.remove('navbar-logo-container');
+    logo.classList.add('navbar-logo-container2');
 }
 
 }   

@@ -1,3 +1,6 @@
+a:visited {
+  color: inherit;
+}
 .footer-container {
   background-color: #2c4b78;
   margin-top: 60px;
@@ -37,6 +40,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
+  color: white;
 }
 .footer-socialContainer p {
   margin: 0;
@@ -86,6 +90,7 @@
 }
 .footer-linksContainer a {
   text-decoration: none;
+  color: white;
 }
 .footer-bottomContainer div {
   display: flex;

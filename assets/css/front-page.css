@@ -5,6 +5,7 @@ body,
   scroll-behavior: smooth;
   z-index: -1;
 }
+
 .fpage-teams {
   box-sizing: border-box;
   padding: 0px 80px;
