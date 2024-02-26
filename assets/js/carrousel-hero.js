@@ -1,5 +1,7 @@
 if (document.querySelector(".chero-container")) {
   const heroSection = document.querySelector(".chero-container");
+  let currentIndex = 0;
+
   const images = [
     globalGaap.theme_url + "Medellin.jpg",
     globalGaap.theme_url + "Cali.jpg",
@@ -7,7 +9,19 @@ if (document.querySelector(".chero-container")) {
     globalGaap.theme_url + "Barranquilla.jpg",
     globalGaap.theme_url + "Bogota.jpg",
   ];
-  let currentIndex = 0;
+
+  // Function to preload images
+  function preloadImages(urls) {
+    const imgArray = [];
+    for (let i = 0; i < urls.length; i++) {
+      const img = new Image();
+      img.src = urls[i];
+      imgArray.push(img);
+    }
+  }
+
+  // Preload all images
+  preloadImages(images);
 
   setInterval(() => {
     heroSection.style.backgroundImage = `url(${images[currentIndex]})`;
