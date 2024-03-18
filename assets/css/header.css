@@ -9,27 +9,15 @@
   align-items: center;
   transition: 0.5s;
   z-index: 1000;
-}
-.dynamH-container .wp-block-navigation-item {
-  color: white;
-}
-.scrolled {
   background-color: white;
 }
-
-.scrolled .wp-block-navigation-item {
-  color: #2c4b78;
-  transition: 1s;
+.dynamH-container .wp-block-navigation-item {
+  color: black;
 }
-
+#navbar-button {
+  color: white;
+}
 .navbar-logo-container {
-  height: 40px;
-  width: 230px;
-  background-image: url(../images/icons/logo_blanco.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.navbar-logo-container2 {
   height: 40px;
   width: 230px;
   background-repeat: no-repeat;

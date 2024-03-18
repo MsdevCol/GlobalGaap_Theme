@@ -99,7 +99,8 @@
           "radius": "4px"
         },
         "color": {
-          "background": "var:preset|color|orange"
+          "background": "var:preset|color|orange",
+          "text": "white"
         },
         "variations": {
           "fill": {
