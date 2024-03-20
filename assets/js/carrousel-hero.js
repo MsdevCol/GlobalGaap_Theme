@@ -1,5 +1,5 @@
-if (document.querySelector(".chero-container")) {
-  const heroSection = document.querySelector(".chero-container");
+if (document.getElementById("chero-container")) {
+  const heroSection = document.getElementById("chero-container");
   let currentIndex = 0;
 
   const images = [

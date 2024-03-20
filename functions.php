@@ -6,20 +6,8 @@ add_action('wp_enqueue_scripts', 'globalgaap_enqueue_styles');
 function globalgaap_enqueue_styles()
 {
 
-    wp_enqueue_style(
-        'banner-hero',
-        get_parent_theme_file_uri('assets/css/banner-hero.css'),
-        array(),
-        wp_get_theme()->get('Version'),
-        'all'
-    );
-    wp_enqueue_style(
-        'header',
-        get_parent_theme_file_uri('assets/css/header.css'),
-        array(),
-        wp_get_theme()->get('Version'),
-        'all'
-    );
+
+
     wp_enqueue_style(
         'who-are-we',
         get_parent_theme_file_uri('assets/css/who-are-we.css'),
@@ -65,6 +53,13 @@ function globalgaap_enqueue_styles()
     wp_enqueue_style(
         '404',
         get_parent_theme_file_uri('assets/css/404.css'),
+        array(),
+        wp_get_theme()->get('Version'),
+        'all'
+    );
+    wp_enqueue_style(
+        'tailwind_output',
+        get_parent_theme_file_uri('dist/output.css'),
         array(),
         wp_get_theme()->get('Version'),
         'all'

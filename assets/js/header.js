@@ -1,12 +1,13 @@
-if (document.querySelector(".dynamH-container")) {
-  const burger_menu = document.querySelector(".navbar-burger");
-  const mobileContainer = document.querySelector(".navbar-mobileContainer");
-  const closebutton = document.getElementById("navbar-closeButton");
+const burger_menu = document.getElementById("navbar-burger");
+const mobileContainer = document.getElementById("navbar-mobileContainer");
+const closebutton = document.getElementById("navbar-closeButton");
+const transparentCover = document.getElementById("navbar-transparentCover");
 
-  burger_menu.addEventListener("click", () => {
-    mobileContainer.style.right = "-1svw";
-  });
-  closebutton.addEventListener("click", () => {
-    mobileContainer.style.right = "-70svw";
-  });
-}
+burger_menu.addEventListener("click", () => {
+  mobileContainer.classList.replace("translate-x-full", "translate-x-0");
+  transparentCover.classList.replace("hidden", "block");
+});
+closebutton.addEventListener("click", () => {
+  mobileContainer.classList.replace("translate-x-0", "translate-x-full");
+  transparentCover.classList.replace("block", "hidden");
+});

@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:html -->
-<div class="chero-container">
+<div id="chero-container" class=" chero-container">
     <h3>Seamos equipo</h3>
     <h1>Alcanza tus objetivos Financieros</h1>
     <h2>Contabilidad, Consultoría y Auditoría especializada</h2>
