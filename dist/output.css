@@ -721,16 +721,12 @@ video {
   margin-bottom: 2rem;
 }
 
-.mr-1 {
-  margin-right: 0.25rem;
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.ml-1 {
-  margin-left: 0.25rem;
 }
 
 .box-border {
@@ -1859,16 +1855,6 @@ video {
 
 .border-none {
   border-style: none;
-}
-
-.border-r-neutral-500 {
-  --tw-border-opacity: 1;
-  border-right-color: rgb(115 115 115 / var(--tw-border-opacity));
-}
-
-.border-l-neutral-500 {
-  --tw-border-opacity: 1;
-  border-left-color: rgb(115 115 115 / var(--tw-border-opacity));
 }
 
 .bg-GOrange {
