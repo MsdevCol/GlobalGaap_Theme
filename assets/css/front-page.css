@@ -32,12 +32,6 @@ body,
   justify-content: center;
 }
 @media only screen and (max-width: 768px) {
-  .miembrosO-container {
-    overflow: scroll;
-  }
-  .miembrosO-container h3 {
-    font-size: 24px !important;
-  }
   .fpage-teamsContainer {
     height: auto;
     margin-bottom: 20px;

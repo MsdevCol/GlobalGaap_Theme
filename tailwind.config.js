@@ -14,6 +14,10 @@ module.exports = {
       },
       height: {
         95: "95vh",
+        75: "75vh",
+      },
+      backgroundImage: {
+        HeroBanner: "url(../assets/images/hero/Bogota.jpg)",
       },
     },
   },

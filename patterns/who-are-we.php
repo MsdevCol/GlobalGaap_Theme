@@ -7,41 +7,42 @@
  */
 ?>
 
-<!-- wp:columns {"align":"wide","className":"whoAreWe-container"} -->
-<div class="wp-block-columns alignwide whoAreWe-container" id="who-are-we">
-    <!-- wp:column {"width":"40%", "className": "whoAreWe-imgContainer"} -->
-    <div class="wp-block-column whoAreWe-imgContainer" style="flex-basis:40%">
+<!-- wp:columns {"align":"wide","className":"flex items-center justify-center mb-20"} -->
+<div class="wp-block-columns alignwide flex items-center justify-center mb-20" id="who-are-we">
+    <!-- wp:column {"width":"40%", "className": "hidden lg:block"} -->
+    <div class="wp-block-column hidden lg:block" style="flex-basis:40%">
         <!-- wp:video {"className":"alignright is-resized"} -->
         <figure class="wp-block-video alignright is-resized"></figure>
         <!-- /wp:video -->
     </div>
     <!-- /wp:column -->
 
-    <!-- wp:column {"verticalAlignment":"center","width":"30%","style":{"spacing":{"padding":{"right":"40px"}}}} -->
-    <div class="wp-block-column is-vertically-aligned-center" style="padding-right:40px;flex-basis:30%">
-        <!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"28px"}}} -->
-        <h3 class="wp-block-heading" style="font-size:28px">
+    <!-- wp:column {"verticalAlignment":"center","width":"30%", "className": "flex justify-center items-center flex-col p-0 gap-4" } -->
+    <div class="wp-block-column is-vertically-aligned-center flex justify-center items-center flex-col px-4 gap-4"
+        style="flex-basis:30%">
+        <!-- wp:html -->
+
+        <h3 class="wp-block-heading font-semibold lg:text-3xl">
             Quienes somos
         </h3>
-        <!-- /wp:heading -->
 
-        <!-- wp:heading {"style":{"typography":{"fontSize":"42px"}}} -->
-        <h2 class="wp-block-heading" style="font-size:42px">
+        <h2 class="wp-block-heading text-xl font-semibold lg:text-4xl">
             Más sobre GlobalGAAP
         </h2>
-        <!-- /wp:heading -->
 
-        <!-- wp:paragraph -->
-        <p>
+        <p class="lg:text-2xl text-sm text-center lg:text-left font-normal text-neutral-700">
             Desde 2012 nuestro objetivo principal ha sido ayudar a nuestros clientes a administrar sus finanzas e
             impuestos, para ayudarlas a ahorrar dinero y tiempo.
         </p>
-        <!-- /wp:paragraph -->
 
-        <!-- wp:button -->
-        <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/#contact-form">Conoce más
-                →</a></div>
-        <!-- /wp:button -->
+
+        <a class="wp-block-button__link wp-element-button flex w-40 text-sm justify-center items-center text-white font-bold bg-GOrange rounded ml-1"
+            href="/#contact-form">
+            Conoce más →
+        </a>
+
+
+        <!-- /wp:html -->
     </div>
     <!-- /wp:column -->
 </div>
