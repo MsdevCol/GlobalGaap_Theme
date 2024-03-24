@@ -6,6 +6,7 @@ module.exports = {
     "./patterns/*.{php,html,js}",
     "./**/*.{html,js}",
   ],
+  important: true,
   theme: {
     extend: {
       colors: {
@@ -18,6 +19,9 @@ module.exports = {
       },
       backgroundImage: {
         HeroBanner: "url(../assets/images/hero/Bogota.jpg)",
+      },
+      spacing: {
+        "9/10": "90%",
       },
     },
   },

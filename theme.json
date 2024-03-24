@@ -73,7 +73,7 @@
     "spacing": {
       "margin": { "top": "0px", "bottom": "0px", "left": "0px", "right": "0px" }
     },
-    "css": "box-sizing: border-box;",
+    "css": "box-sizing: border-box; object-fit: cover; ",
 
     "elements": {
       "h3": {
@@ -114,6 +114,7 @@
         }
       },
       "core/image": {
+        "css": "",
         "variations": {
           "Rounded": {
             "border": {

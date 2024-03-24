@@ -5,13 +5,7 @@ add_action('wp_enqueue_scripts', 'globalgaap_enqueue_styles');
 
 function globalgaap_enqueue_styles()
 {
-    wp_enqueue_style(
-        'team-card',
-        get_parent_theme_file_uri('assets/css/team-card.css'),
-        array(),
-        wp_get_theme()->get('Version'),
-        'all'
-    );
+
     wp_enqueue_style(
         'front-page',
         get_parent_theme_file_uri('assets/css/front-page.css'),
