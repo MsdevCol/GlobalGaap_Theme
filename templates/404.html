@@ -1,12 +1,22 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
-<div class="p404-container">
-  <h5>404</h5>
-  <h4>Página no encontrada</h4>
-  <p>
-    La página que buscas no está disponible. Intenta con otra página o <br />usa
-    el botón de inicio a continuación.
-  </p>
-  <a href="/"> Volver al inicio</a>
-  <span>404</span>
+<!-- wp:html -->
+<div class="relative flex min-h-80 flex-col items-center justify-center">
+    <h5 class="text-5xl font-bold lg:text-9xl">404</h5>
+    <h4 class="text-xl font-bold lg:text-5xl">Página no encontrada</h4>
+    <p class="mt-8 text-center text-sm lg:w-2/5 lg:text-base">
+        La página que buscas no está disponible. Intenta con otra página o usa
+        el botón de inicio a continuación.
+    </p>
+    <a
+        href="/"
+        class="mt-8 flex h-12 w-40 items-center justify-center rounded bg-GOrange text-white lg:h-14 lg:w-48"
+    >
+        Volver al inicio</a
+    >
+    <span
+        class="text-600 absolute -z-10 hidden font-bold text-neutral-950/5 lg:flex"
+        >404</span
+    >
 </div>
+<!-- /wp:html -->
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
