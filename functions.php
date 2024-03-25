@@ -18,7 +18,7 @@ function globalgaap_enqueue_styles()
 function mytheme_add_favicon()
 {
     // Path to the favicon file
-    $favicon_url = get_stylesheet_directory_uri() . 'assets/images/favicon.ico'; // Adjust the path as necessary
+    $favicon_url = get_stylesheet_directory_uri() . '/assets/images/favicon.ico'; // Adjust the path as necessary
 
     echo '<link rel="icon" href="' . esc_url($favicon_url) . '" sizes="32x32" />';
     echo '<link rel="icon" href="' . esc_url($favicon_url) . '" sizes="192x192" />';
