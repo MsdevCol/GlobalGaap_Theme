@@ -15,6 +15,18 @@ function globalgaap_enqueue_styles()
 }
 
 
+function mytheme_add_favicon()
+{
+    // Path to the favicon file
+    $favicon_url = get_stylesheet_directory_uri() . 'assets/images/favicon.ico'; // Adjust the path as necessary
+
+    echo '<link rel="icon" href="' . esc_url($favicon_url) . '" sizes="32x32" />';
+    echo '<link rel="icon" href="' . esc_url($favicon_url) . '" sizes="192x192" />';
+    echo '<link rel="apple-touch-icon" href="' . esc_url($favicon_url) . '">';
+    echo '<meta name="msapplication-TileImage" content="' . esc_url($favicon_url) . '">';
+}
+add_action('wp_head', 'mytheme_add_favicon');
+
 function globalgaap_enqueue_scripts()
 {
     wp_enqueue_script('dynamic-header', get_template_directory_uri() . '/assets/js/header.js', array(), '1.0.0', true);
