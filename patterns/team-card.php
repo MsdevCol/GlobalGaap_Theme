@@ -7,10 +7,11 @@
  */
 
 ?>
-<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}, "className": "h-auto flex lg:h-600 flex-col items-center lg:mt-10 shadow-lg border rounded lg:w-72 justify-start gap-2 w-60"} -->
-<div class="wp-block-group h-auto lg:h-600 flex flex-col items-center lg:mt-10 shadow-lg border rounded lg:w-72 justify-start gap-2 w-60 flex-nowrap">
-    <!-- wp:image {"className":"lg:w-full lg:rounded-none rounded-full w-2/4 overflow-hidden mt-4 lg:m-0 shrink-0"} -->
-    <figure class="wp-block-image lg:w-full lg:rounded-none rounded-full w-2/4 overflow-hidden mt-4 lg:m-0 shrink-0">
+<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}, "className": "lg:h-550 flex h-auto w-60 flex-col flex-nowrap items-center justify-start gap-2 rounded border shadow-lg lg:mt-10 lg:w-72 xl:h-600"} -->
+<div
+    class="wp-block-group lg:h-550 flex h-auto w-60 flex-col flex-nowrap items-center justify-start gap-2 rounded border shadow-lg lg:mt-10 lg:w-72 xl:h-600">
+    <!-- wp:image {"className":"wp-block-image mt-4 w-2/4 shrink-0 overflow-hidden rounded-full lg:m-0 lg:w-full lg:rounded-none"} -->
+    <figure class="wp-block-image mt-4 w-2/4 shrink-0 overflow-hidden rounded-full lg:m-0 lg:w-full lg:rounded-none">
         <img alt="" />
     </figure>
     <!-- /wp:image -->
@@ -40,7 +41,8 @@
     <!-- /wp:list -->
 
     <!-- wp:paragraph {"className":"font-semibold underline my-4 text-sm lg:text-base h-full flex items-end"} -->
-    <p class="font-semibold underline my-4 text-sm lg:text-base h-full flex items-end"><a href="/" target="_blank">LinkedIn</a></p>
+    <p class="font-semibold underline my-4 text-sm lg:text-base h-full flex items-end"><a href="/"
+            target="_blank">LinkedIn</a></p>
     <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

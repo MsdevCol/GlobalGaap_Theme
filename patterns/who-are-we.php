@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:columns {"align":"wide","className":"flex items-center justify-center mb-20"} -->
-<div class="wp-block-columns alignwide flex items-center justify-center my-20" id="who-are-we">
+<!-- wp:columns {"align":"wide","className":"my-20 flex items-center justify-center lg:mt-5 xl:my-16"} -->
+<div class="wp-block-columns alignwide my-20 flex items-center justify-center lg:mt-5 xl:my-16" id="who-are-we">
     <!-- wp:column {"width":"40%", "className": "hidden lg:block"} -->
     <div class="wp-block-column hidden lg:block" style="flex-basis:40%">
         <!-- wp:video {"className":"alignright is-resized"} -->
@@ -17,25 +17,27 @@
     </div>
     <!-- /wp:column -->
 
-    <!-- wp:column {"verticalAlignment":"center","width":"30%", "className": "flex justify-center items-center flex-col p-0 gap-4" } -->
-    <div class="wp-block-column is-vertically-aligned-center flex justify-center items-center flex-col px-4 gap-4" style="flex-basis:30%">
+    <!-- wp:column {"verticalAlignment":"center","width":"30%", "className": "flex flex-col items-center justify-center gap-4 px-4" } -->
+    <div class="wp-block-column is-vertically-aligned-center flex flex-col items-center justify-center gap-4 px-4"
+        style="flex-basis:30%">
         <!-- wp:html -->
 
-        <h3 class="wp-block-heading font-semibold lg:text-3xl">
+        <h3 class="wp-block-heading font-semibold lg:text-3xl ">
             Quienes somos
         </h3>
 
-        <h2 class="wp-block-heading text-xl font-semibold lg:text-4xl">
+        <h2 class="wp-block-heading text-xl font-semibold lg:text-3xl xl:text-4xl">
             Más sobre GlobalGAAP
         </h2>
 
-        <p class="lg:text-xl text-sm text-center lg:text-left font-normal text-neutral-700">
+        <p class="text-center text-sm font-normal text-neutral-700 lg:text-left lg:text-base xl:text-xl">
             Desde 2012 nuestro objetivo principal ha sido ayudar a nuestros clientes a administrar sus finanzas e
             impuestos, para ayudarlas a ahorrar dinero y tiempo.
         </p>
 
 
-        <a class="wp-block-button__link wp-element-button flex w-40 text-sm justify-center items-center text-white font-bold bg-GOrange rounded ml-1" href="/#contact-form">
+        <a class="wp-block-button__link wp-element-button ml-1 flex w-40 items-center justify-center rounded bg-GOrange text-sm font-bold text-white"
+            href="/#contact-form">
             Conoce más →
         </a>
 

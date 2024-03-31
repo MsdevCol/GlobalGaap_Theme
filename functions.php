@@ -12,6 +12,13 @@ function globalgaap_enqueue_styles()
         wp_get_theme()->get('Version'),
         'all'
     );
+    wp_enqueue_style(
+        'global',
+        get_parent_theme_file_uri('assets/css/global.css'),
+        array(),
+        wp_get_theme()->get('Version'),
+        'all'
+    );
 }
 
 

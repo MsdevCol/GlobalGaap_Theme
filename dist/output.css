@@ -2222,12 +2222,8 @@ video {
   padding-bottom: 1.25rem !important;
 }
 
-.pl-8 {
-  padding-left: 2rem !important;
-}
-
-.pr-4 {
-  padding-right: 1rem !important;
+.pt-10 {
+  padding-top: 2.5rem !important;
 }
 
 .pt-16 {
@@ -2940,6 +2936,11 @@ video {
     margin: 0px !important;
   }
 
+  .lg\:my-10 {
+    margin-top: 2.5rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+
   .lg\:mb-9 {
     margin-bottom: 2.25rem !important;
   }
@@ -2972,8 +2973,8 @@ video {
     height: 9rem !important;
   }
 
-  .lg\:h-600 {
-    height: 600px !important;
+  .lg\:h-550 {
+    height: 550px !important;
   }
 
   .lg\:h-95 {
@@ -3044,28 +3045,19 @@ video {
     padding: 0px !important;
   }
 
-  .lg\:p-20 {
-    padding: 5rem !important;
+  .lg\:px-10 {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
   }
 
-  .lg\:px-4 {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+  .lg\:px-20 {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
   }
 
   .lg\:px-40 {
     padding-left: 10rem !important;
     padding-right: 10rem !important;
-  }
-
-  .lg\:px-8 {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-  }
-
-  .lg\:px-80 {
-    padding-left: 20rem !important;
-    padding-right: 20rem !important;
   }
 
   .lg\:py-5 {
@@ -3081,28 +3073,13 @@ video {
     text-align: left !important;
   }
 
-  .lg\:text-2xl {
-    font-size: 1.5rem !important;
-    line-height: 2rem !important;
-  }
-
   .lg\:text-3xl {
     font-size: 1.875rem !important;
     line-height: 2.25rem !important;
   }
 
-  .lg\:text-4xl {
-    font-size: 2.25rem !important;
-    line-height: 2.5rem !important;
-  }
-
   .lg\:text-5xl {
     font-size: 3rem !important;
-    line-height: 1 !important;
-  }
-
-  .lg\:text-7xl {
-    font-size: 4.5rem !important;
     line-height: 1 !important;
   }
 
@@ -3133,12 +3110,64 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:my-10 {
+    margin-top: 2.5rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+
+  .xl\:my-16 {
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+  }
+
+  .xl\:mt-20 {
+    margin-top: 5rem !important;
+  }
+
+  .xl\:flex {
+    display: flex !important;
+  }
+
+  .xl\:h-600 {
+    height: 600px !important;
+  }
+
   .xl\:w-60 {
     width: 15rem !important;
   }
 
   .xl\:w-80 {
     width: 20rem !important;
+  }
+
+  .xl\:px-40 {
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
+  }
+
+  .xl\:px-80 {
+    padding-left: 20rem !important;
+    padding-right: 20rem !important;
+  }
+
+  .xl\:text-2xl {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+  }
+
+  .xl\:text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+
+  .xl\:text-7xl {
+    font-size: 4.5rem !important;
+    line-height: 1 !important;
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
   }
 }
 

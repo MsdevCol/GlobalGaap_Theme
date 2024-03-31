@@ -15,22 +15,16 @@
     </h3>
     <!-- /wp:heading -->
     <!-- wp:html -->
-    <div class="flex lg:h-36 h-16 overflow-x-scroll w-auto gap-4 px-4 lg:overflow-hidden md:justify-center lg:gap-10">
-        <a class="h-full w-40 flex justify-center shrink-0 items-center xl:w-80" href="https://www.ahk-colombia.com/es/"
-            target="_blank">
+    <div class="flex h-16 w-auto gap-4 overflow-x-scroll px-4 md:justify-center lg:h-36 lg:gap-10 lg:overflow-hidden">
+        <a class="flex h-full w-40 shrink-0 items-center justify-center xl:w-80" href="https://www.ahk-colombia.com/es/" target="_blank">
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/AHK.png" class="object-contain" />
         </a>
-        <a class="h-full w-40 flex justify-center shrink-0 items-center xl:w-80"
-            href="https://hollandhouse-colombia.com" target="_blank"> <img class=" object-contain "
-                src="<?php echo get_template_directory_uri() ?>/assets/images/Holland House.png" />
+        <a class="flex h-full w-40 shrink-0 items-center justify-center xl:w-80" href="https://hollandhouse-colombia.com" target="_blank">
+            <img class="object-contain" src="<?php echo get_template_directory_uri() ?>/assets/images/Holland House.png" />
         </a>
-        <a class="h-full w-40 flex justify-center shrink-0 items-center mr-3 xl:w-80" href="https://auditbrain.com"
-            target="_blank"><img class="  object-contain"
-                src="<?php echo get_template_directory_uri() ?>/assets/images/Audit Brain.png" />
+        <a class="mr-3 flex h-full w-40 shrink-0 items-center justify-center xl:w-80" href="https://auditbrain.com" target="_blank"><img class="object-contain" src="<?php echo get_template_directory_uri() ?>/assets/images/Audit Brain.png" />
         </a>
-        <a class="h-full w-20 flex justify-center shrink-0 items-center xl:w-60" href="https://gpsa-international.com"
-            target="_blank"><img class=" object-contain"
-                src="<?php echo get_template_directory_uri() ?>/assets/images/gpsa.png" />\
+        <a class="flex h-full w-20 shrink-0 items-center justify-center xl:w-60" href="https://gpsa-international.com" target="_blank"><img class="object-contain" src="<?php echo get_template_directory_uri() ?>/assets/images/gpsa.png" />\
         </a>
     </div>
     <!-- /wp:html -->

@@ -8,33 +8,34 @@
 ?>
 <!-- wp:html -->
 
-<form class="flex flex-col justify-start items-center mt-10 lg:px-80 px-4" id="contact-form" autocomplete="off">
+<form class="flex flex-col justify-start items-center mt-10 xl:px-80 px-4 lg:px-40" id="contact-form"
+    autocomplete="off">
     <input type="hidden" name="form_type" value="contact_form">
 
     <h3 class="font-semibold lg:text-3xl"> Contáctanos</h3>
 
-    <p class="text-sm lg:text-xl font-normal mt-2  text-center  text-neutral-700">
-        Conéctate con el experto indicado para llevar tus
-        proyectos
+    <p class="mt-2 text-center text-sm font-normal text-neutral-700 lg:text-base xl:text-xl">
+        Conéctate con el experto indicado para llevar tus proyectos
     </p>
-    <div class="flex  w-full lg:mb-9 lg:mt-10 mt-4 flex-col lg:justify-between lg:flex-row">
+
+    <div class="mt-4 flex w-full flex-col lg:mb-9 lg:mt-10 lg:flex-row lg:justify-between">
 
         <input
-            class=" lg:text-base text-sm border-b border-b-neutral-400 h-9 lg:w-12/25 focus:outline-none focus:border-b-black mb-6 lg:m-0"
+            class="mb-6 h-9 border-b border-b-neutral-400 text-sm focus:border-b-black focus:outline-none lg:m-0 lg:w-12/25 lg:text-base"
             type="text" id="cform-name" name="cform-name" required placeholder="Nombre">
 
         <input
-            class="lg:text-base text-sm border-b border-b-neutral-400 h-9 lg:w-12/25 focus:outline-none focus:border-b-black mb-6  lg:m-0"
+            class="mb-6 h-9 border-b border-b-neutral-400 text-sm focus:border-b-black focus:outline-none lg:m-0 lg:w-12/25 lg:text-base"
             type="email" id="cform-email" name="cform-email" required placeholder="Email">
     </div>
-    <div class="flex justify-between w-full lg:mb-9 flex-col lg:flex-row">
+    <div class="flex w-full flex-col justify-between lg:mb-9 lg:flex-row">
 
         <input
-            class="lg:text-base text-sm border-b border-b-neutral-400 h-9 lg:w-8/25 focus:outline-none focus:border-b-black mb-7  lg:m-0"
+            class="mb-7 h-9 border-b border-b-neutral-400 text-sm focus:border-b-black focus:outline-none lg:m-0 lg:w-8/25 lg:text-base"
             type="tel" id="cform-phone" name="cform-phone" placeholder="Telefono">
 
         <select
-            class=" lg:text-base text-sm lg:w-8/25 border-b border-b-neutral-400 focus:outline-none focus:border-b-black mb-7  pb-2  lg:m-0"
+            class="mb-7 border-b border-b-neutral-400 pb-2 text-sm focus:border-b-black focus:outline-none lg:m-0 lg:w-8/25 lg:text-base"
             id="cform-service" name="cform-service">
             <!-- Option values should be updated according to actual services -->
             <option value="" selected disabled hidden>Servicio</option>
@@ -45,7 +46,7 @@
         </select>
 
         <select
-            class="lg:text-base lg:w-8/25 text-sm border-b border-b-neutral-400 focus:outline-none focus:border-b-black mb-6 pb-2 lg:m-0"
+            class="mb-6 border-b border-b-neutral-400 pb-2 text-sm focus:border-b-black focus:outline-none lg:m-0 lg:w-8/25 lg:text-base"
             id="cform-country" name="cform-country">
             <!-- Option values should be updated according to actual countries -->
             <option value="" selected disabled hidden>País</option>
@@ -56,9 +57,9 @@
     </div>
 
     <textarea id="cform-message" name="cform-message" required placeholder="Mensaje"
-        class=" lg:text-base border-b text-sm border-b-neutral-400 focus:outline-none focus:border-b-black h-9 w-full"></textarea>
+        class="h-9 w-full border-b border-b-neutral-400 text-sm focus:border-b-black focus:outline-none lg:text-base"></textarea>
 
-    <button class="flex w-40 text-sm justify-center items-center text-white font-bold bg-GOrange rounded ml-1 h-10 mt-8"
+    <button class="ml-1 mt-8 flex h-10 w-40 items-center justify-center rounded bg-GOrange text-sm font-bold text-white"
         type="submit" name="submit" value="submit" id="cform-button">Enviar</button>
 </form>
 
